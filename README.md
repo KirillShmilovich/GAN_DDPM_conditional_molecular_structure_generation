@@ -1,7 +1,6 @@
-# Project title
-
-## Geometric deep learining class final project for CMSC 35450 1 (Autumn 2022) Geometric Deep Learning
+# A Comparison of Generative Modelling Approaches for Conditional Molecular Structure GenerationLearning
 
 ## By: Mike Jones and Kirill Shmilovich
 
-!()[https://github.com/KirillShmilovich/CMSC-35450/imgs/pep_aa_compare.gif]
+Comparisson of molecular trajectories generated for a 94-atom pentapeptide. The REAL trajectory is on the left, trajectory generated using a GAN is shown in the center, and the DDPM-generated trajectory is shown on the right.
+![ ](imgs/pep_aa_compare.gif)
