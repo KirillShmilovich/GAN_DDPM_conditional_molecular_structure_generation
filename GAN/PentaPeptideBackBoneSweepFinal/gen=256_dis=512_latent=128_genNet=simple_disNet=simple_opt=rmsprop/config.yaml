@@ -1,0 +1,85 @@
+# pytorch_lightning==1.8.3.post1
+seed_everything: 1234
+trainer:
+  logger:
+    class_path: pytorch_lightning.loggers.TensorBoardLogger
+    init_args:
+      save_dir: ./
+      name: PentaPeptideBackBoneSweepFinal
+      version: gen=256_dis=512_latent=128_genNet=simple_disNet=simple_opt=rmsprop
+      log_graph: false
+      default_hp_metric: true
+      prefix: ''
+      sub_dir: null
+      logdir: null
+      comment: ''
+      purge_step: null
+      max_queue: 10
+      flush_secs: 120
+      filename_suffix: ''
+      write_to_disk: true
+      comet_config:
+        disabled: true
+  enable_checkpointing: true
+  callbacks: null
+  default_root_dir: null
+  gradient_clip_val: null
+  gradient_clip_algorithm: null
+  num_nodes: 1
+  num_processes: null
+  devices: null
+  gpus: null
+  auto_select_gpus: false
+  tpu_cores: null
+  ipus: null
+  enable_progress_bar: false
+  overfit_batches: 0.0
+  track_grad_norm: -1
+  check_val_every_n_epoch: 1
+  fast_dev_run: false
+  accumulate_grad_batches: null
+  max_epochs: 100000
+  min_epochs: null
+  max_steps: -1
+  min_steps: null
+  max_time: null
+  limit_train_batches: null
+  limit_val_batches: null
+  limit_test_batches: null
+  limit_predict_batches: null
+  val_check_interval: null
+  log_every_n_steps: 50
+  accelerator: gpu
+  strategy: null
+  sync_batchnorm: false
+  precision: 32
+  enable_model_summary: true
+  num_sanity_val_steps: 2
+  resume_from_checkpoint: null
+  profiler: null
+  benchmark: null
+  deterministic: null
+  reload_dataloaders_every_n_epochs: 0
+  auto_lr_find: false
+  replace_sampler_ddp: true
+  detect_anomaly: false
+  auto_scale_batch_size: false
+  plugins: null
+  amp_backend: native
+  amp_level: null
+  move_metrics_to_cpu: false
+  multiple_trainloader_mode: max_size_cycle
+  inference_mode: true
+model:
+  gen_network_type: simple
+  dis_network_type: simple
+  gen_hidden_dim: 256
+  dis_hidden_dim: 512
+  lambda_gp: 10.0
+  n_critic: 5
+  latent_dim: 128
+  lr: 5.0e-05
+  opt: rmsprop
+  log_eval_metrics: 250
+data:
+  batch_size: 1000

@@ -1,0 +1,13 @@
+c_dim: 4
+dis_hidden_dim: 512
+dis_network_type: simple
+gen_hidden_dim: 256
+gen_network_type: simple
+lambda_gp: 10.0
+latent_dim: 128
+log_eval_metrics: 250
+lr: 5.0e-05
+n_critic: 5
+n_samples: 25005
+opt: rmsprop
+x_dim: 282
