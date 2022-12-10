@@ -28,7 +28,7 @@ Atom positions throughout the 1000-step diffusion process arriving at the final 
 ![ ](imgs/diffusion_progress.gif)
 
 ## Generated structures under different random noises
-Using a fixed conditioning defined by the reference frame shown (transparent)
+Using a fixed conditioning defined by the reference frame (transparent)
 
 GAN
 ![ ](imgs/vary_noise_frame-0_gan.gif)
