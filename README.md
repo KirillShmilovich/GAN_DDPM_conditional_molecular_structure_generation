@@ -4,6 +4,12 @@
 
 In this work we compare GANs and DDPMs for the task of conditional molecular structure generation.
 
+The code theGAN and DDPM models are available in the associated `GAN` and `DDPM` directories.
+
+CONTRIBUTIONS:
+-- Kirill: GAN
+-- Mike: DPPM
+
 ## Comparisson of generated molecular trajectories
 
 left=REAL, center=GAN, right=DDPM
