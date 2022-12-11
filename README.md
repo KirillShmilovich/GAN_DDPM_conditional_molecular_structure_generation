@@ -1,4 +1,4 @@
-# A Comparison of Generative Modelling Approaches for Conditional Molecular Structure GenerationLearning
+# A Comparison of Generative Modelling Approaches for Conditional Molecular Structure Generation
 
 ### By: Mike Jones and Kirill Shmilovich
 
