@@ -43,3 +43,8 @@ GAN
 
 DDPM
 ![ ](imgs/vary_noise_frame-0_ddpm.gif)
+
+## Comparisson of Conditioning Free Energy Surfaces
+For the test set we compare the free energy surfraces in the conditioning variables. These free energy surfances are quantities proportional to the density of states, where we should expect our reconstructed molecular structures to adhere to the real conditioning variables used as input to the models at inference time. 
+
+![image](https://user-images.githubusercontent.com/40403472/206928265-fbf71c12-dd33-4dd8-9c88-112e4da3f4c6.png)
