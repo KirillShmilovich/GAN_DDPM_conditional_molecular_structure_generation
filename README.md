@@ -6,6 +6,7 @@ In this work we compare GANs and DDPMs for the task of conditional molecular str
 
 The code the GAN and DDPM models are available in the associated `GAN` and `DDPM` directories.
 
+
 ## Comparisson of generated molecular trajectories
 
 left=REAL, center=GAN, right=DDPM
